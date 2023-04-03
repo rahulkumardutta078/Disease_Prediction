@@ -4,7 +4,7 @@ import pandas as pd
 import pickle
 import warnings
 
-disease_predictor_model=pickle.load(open(r'C:\Users\RAHUL KUMAR DUTTA\OneDrive\Desktop\Documents\Disease Prediction using symptoms Web App\disease_predictor.sav','rb'))
+disease_predictor_model=pickle.load(open(r'disease_predictor.sav','rb'))
 
 def get_disease_name():
     disease ={'Fungal infection':0,'Allergy':1,'GERD':2,'Chronic cholestasis':3,'Drug Reaction':4,
