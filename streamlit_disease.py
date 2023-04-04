@@ -159,6 +159,8 @@ def main(feature_dict):
         disease_dict = get_disease_name()
         result=predict(feature_dict,symptom1,symptom2,symptom3,symptom4,symptom5)
         st.success(f"You are suffering from disease {disease_dict[result[0]]}")
+        
+        st.write("Click This [ To book doctor appointment online](https://www.practo.com/doctors)")
 
         
 
